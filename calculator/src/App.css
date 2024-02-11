@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+#AC,
+#equals {
+  grid-column: span 2;
+  background-color: #ff6347;
+  color: white;
+}
+
+#AC:hover,
+#equals:hover {
+  background-color: #ff452c;
+}
+
+#display {
+  color: white;
+  height: 150px;
+  background-color: rgb(82, 67, 67);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  text-align: right;
+  padding: 15px;
+}
+
+h3 {
+  margin: 0;
+  text-align: right;
+  padding: 15px;
+}
